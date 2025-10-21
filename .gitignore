@@ -1,15 +1,47 @@
+/.gradle
+/build/
+**/build/
+/local.properties
+/.idea/
+*.iml
+.gradle
+/captures/
+.externalNativeBuild
+.DS_Store
+/.cxx/
+/.gradle/
+/app/build/
+/.idea
+.idea/**
+*.log
+/bin/
+/gen/
+.gradle
+
+# Android Studio
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+
+# Kotlin
+*.kotlin_module
+
+# JetBrains
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Mac
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Others
+.gradle/
+build/
+
+# keystore
+*.jks
+
+# Crashlytics
+crashlytics.properties
+
